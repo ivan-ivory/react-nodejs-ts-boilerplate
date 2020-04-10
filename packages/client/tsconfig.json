@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "target": "es5",
+    "module": "commonjs",
+    "jsx": "react",
+    "allowJs": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "noImplicitThis": true,
+    "strict": true,
+    "importHelpers": true,
+    "lib": [
+      "dom",
+      "es6",
+      "es7",
+      "dom",
+      "esnext"
+    ],
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules"
+  ]
+}
